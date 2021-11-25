@@ -1,0 +1,326 @@
+<html lang = "en">
+
+	<head>
+
+		<link href = "Style.css" rel = "stylesheet"/>
+		
+		<link rel="icon" href="Assets/teamLogo.png" type="image/x-icon">
+		<script src = "Scripts.js"></script>
+		<title> CharacterConnect | Homepage </title>
+		<meta charset = "utf-8"/>
+
+	</head>
+
+	<body>
+		
+		<div id = "home-main-container">
+			<div id = "home-intro">
+
+				<header class = "intro">
+			
+					<!--Insert a header-->
+
+					<div id = "home-teamLogo">
+
+						<img src = "Assets/teamLogo.png">
+
+					</div>
+
+					<!-- Header Menu -->
+
+					<div id = "home-menu-button" onclick = "menuChange(this)">
+
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+
+					</div>
+
+				</header>
+
+				<!-- Background Animation -->
+
+				<video class = "intro" autoplay muted loop>
+
+					<source src = "Assets/Home-Animation.mp4">
+
+				</video>
+
+				<!-- Header Team Logo -->
+
+				<div id = "home-intro-content">
+
+					<img src = "Assets/Character_Connect_Logo.jpg">
+
+					<div id = "home-intro-content-text">
+
+						<h1>Connecting <span>education</span> and <span>entertainment</span> through words.</h1>
+						<button type = "button" onclick = "location.href = 'https://team12coursework.herokuapp.com';"><h1> Play Now </h1></a></button>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id = "home-game">
+				
+				<!-- Gameplay Slideshow -->
+
+				<div id = "home-game-slideshow">
+
+					<div class = "slideshow-container">
+
+						<div class = "game-slides fade">
+							<video src = "Assets/ProjectPrototype.mov" autoplay muted loop>
+						</div>
+
+						<div class = "game-slides fade">
+							<img src = "Assets/Placeholder.png">
+						</div>
+
+						<div class = "game-slides fade">
+							<img src = "Assets/Placeholder.png">
+						</div>
+
+						<a class = "prev" onclick = "shiftSlides(-1)">&#10094;</a>
+						<a class = "next" onclick = "shiftSlides(1)">&#10095;</a>
+
+						<div style = "text-align:center">
+
+							<span class = "dot" onclick = "currentSlide(1)"></span> 
+							<span class = "dot" onclick = "currentSlide(2)"></span> 
+							<span class = "dot" onclick = "currentSlide(3)"></span> 
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<!-- Load slideshow 1st Slide -->
+
+				<script src = "Scripts.js"></script>
+
+				<!-- Game Information -->
+
+				<div id = "home-game-text">
+
+					<h1>Your favourite word game, reimaged.</h1>
+					<span></span>
+					<span></span>
+					<p>CharacterConnect is a turn-based multiplayer word game inspired by Scrabble, where you can test your wits against other players by creating words to score points. 
+					   Compete with friends in an interactive environement, and ascend the leaderboard. Additional game modes and features coming soon.
+					</p>
+
+				</div>
+
+			</div>
+
+			<div id = "home-about">
+
+			<!-- About The Team -->
+
+				<div id = "home-about-us">
+
+					<h1>About Us</h1>
+					<span></span>
+					<span></span>
+					<p> We of Team 12 are a group of Aston University students who first met during a kick-off event, and since then we've been developing on the game you now know as CharacterConnect.
+						Our team is enthusiastic about our development for CharacterConnect, and we hope to share that enjoyment by delivering the best experience to you our players.
+						The premise for CharacterConnect is to foster an entertaining learning experience for the younger audience, through both casual and competitive matches of a game we all know and love that inspired CharacterConnect.
+					</p>
+
+				</div>
+
+				<!-- Team PFP Slideshow -->
+
+				<div id = "home-about-team">
+
+					<h1>Our Team</h1>
+					<span></span>
+					<span></span>
+
+					<div id = "team-slideshow">
+
+						<div class = "team-slide" id = "team1">
+							<div class = "frame">
+								<div id = "Harry">
+									<img src = "Assets/TheTeam/Blue/Harry.png">
+									<h2>Harry.L</h2>
+									<p>Lead Programmer</p>
+								</div>
+							</div>
+
+							<div class = "frame">
+								<div id = "Atif">
+									<img src = "Assets/TheTeam/Blue/Atif.png">
+									<h2>Atif.A</h2>
+									<p>Security Specialist</p>
+								</div>
+							</div>
+
+							<div class = "frame">
+								<div id = "Qasim">
+									<img src = "Assets/TheTeam/Blue/Qasim.png">
+									<h2>Qasim.M</h2>
+									<p>Graphics & Sound Specialist</p>
+								</div>
+							</div>
+						</div>
+
+						<div class = "team-slide" id = "team2">
+							<div class = "frame">
+								<div id = "Amaan">
+									<img src = "Assets/TheTeam/Blue/Amaan.png">
+									<h2>Amaan.A</h2>
+									<p>Front-end Programmer</p>
+								</div>
+							</div>
+
+							<div class = "frame">
+								<div id = "Gurdeep">
+									<img src = "Assets/TheTeam/Blue/Gurdeep.png">
+									<h2>Gurdeep.S</h2>
+									<p>Front-end Programmer</p>
+								</div>
+							</div>
+
+							<div class = "frame">
+								<div id = "Perry">
+									<img src = "Assets/TheTeam/Blue/Perry.png">
+									<h2>Perry.E</h2>
+									<p>Front-end Programmer</p>
+								</div>
+							</div>
+						</div>
+
+						<div class = "team-slide" id = "team3">
+
+							<div class = "frame">
+								<div id = "Sufyan">
+									<img src = "Assets/TheTeam/Blue/Sufyan.jpg">
+									<h2>Sufyan.H</h2>
+									<p>Back-end Programmer</p>
+								</div>
+							</div>
+
+							<div class = "frame">
+								<div id = "Usman">
+									<img src = "Assets/TheTeam/Blue/Usman.jpg">
+									<h2>Usman.S</h2>
+									<p>Back-end Programmer</p>
+								</div>
+							</div>
+						</div>
+
+						<div class = "team-slide" id = "team4">
+							<div class = "frame">
+								<div id = "Jimmy">
+									<img src = "Assets/TheTeam/Blue/Jimmy.png">
+									<h2>Jimmy.C</h2>
+									<p>Website Developer</p>
+								</div>
+							</div>
+
+							<div class = "frame">
+								<div id = "Zaieed">
+									<img src = "Assets/TheTeam/Blue/Zaieed.jpg">
+									<h2>Zaieed.H</h2>
+									<p>Website Developer</p>
+								</div>
+							</div>
+						</div>
+
+						<a class = "prevTeam" onclick = "shiftSlidesTeam(-1)">&#10094;</a>
+						<a class = "nextTeam" onclick = "shiftSlidesTeam(1)">&#10095;</a>
+
+					</div>
+
+				<script src = "Scripts.js"></script>
+
+				</div>
+
+			</div>
+
+			<div id = "home-contact">
+				
+				<div id = "home-contact-info">
+					<h1>Contact Us</h1>
+					<span></span>
+					<span></span>
+					<p>If you have any questions, please check out our FAQ.</br>For any general enquiries or problems feel free to contact us on any of the following.</p>
+				</div>
+				
+				<div id = "home-contact-contents">
+
+					<div id = "contact-container">
+
+						<div class="contact-info">
+
+							<div class="contacts">
+								<img src="Assets/Phone.png" width= "25" height= "25">
+								<p>Landline Number: 0121 568 3581</p>
+							</div>
+							<div class="contacts">
+								<img src="Assets/Email.png" width= "25" height= "25">
+								<p>General Contact Email: Cs_team12@gmail.com</p>
+							</div>
+							<div class="contacts">
+								<img src="Assets/Location.png" width= "25" height= "25">
+								<p>Address: Aston St, Birmingham B4 7ET</p>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div id = "google-maps">
+						<img src = "Assets/Placeholder.png">
+						<p>Insert Google Map</p>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id = "home-blog">
+				
+				<div id = "home-blog-info">
+					<h1>Blog</h1>
+					<span></span>
+					<span></span>
+					<p>W.I.P</p>
+				</div>
+
+				<div id = "home-blog-latest">
+					
+					<div class = "latest-posts">
+						Blog
+					</div>
+
+					<div class = "latest-posts">
+						Blog
+					</div>
+
+					<div class = "latest-posts">
+						Blog
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div>
+			<footer>
+			
+				<!--Insert a footer-->
+
+			</footer>
+		</div>
+
+	</body>
+
+</html>
