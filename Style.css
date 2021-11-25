@@ -26,6 +26,7 @@ h2 {
 p {
 	font-family: RobotoThin;
 	font-size: 20px;
+	margin: 10px 0;
 }
 
 /* div { outline: 1px solid red !important; } */
@@ -181,7 +182,6 @@ span {
 }
 
 #home-game-text span, #home-about-us span, #home-about-team span, #home-contact-info span, #home-blog-info span {
-	margin: 10px 0;
 	position: absolute;
 	width: 10%;
 	height: 3px;
@@ -199,7 +199,6 @@ span {
 }
 
 #home-game-text span:nth-child(2), #home-about-us span:nth-child(2), #home-about-team span:nth-child(2), #home-contact-info span:nth-child(2), #home-blog-info span:nth-child(2) {
-	margin: 10px 0;
 	position: absolute;
 	width: 10%;
 	height: 3px;
