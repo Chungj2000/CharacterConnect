@@ -29,7 +29,7 @@ p {
 	margin: 10px 0;
 }
 
-/* div { outline: 1px solid red !important; } */
+div { outline: 1px solid red !important; }
 /* a { outline: 1px solid red !important; } */
 /* span { outline: 1px solid red !important; } */
 
@@ -416,4 +416,39 @@ span {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 10vw;
 	margin: 0 15%;
+}
+
+.latest-posts {
+	margin: 0 auto;
+	background-color: #FFB16E;
+}
+
+.latest-lower {
+	margin: 0 5%;
+}
+
+
+.latest-posts img {
+	width: 100%;
+}
+
+.latest-author {
+	display: flex;
+	margin: 0 5%;
+	gap: 5%;
+}
+
+.latest-author p {
+	display: block;
+	text-align: left;
+	margin: auto 5% auto 0;
+}
+
+.latest-author img {
+	border-radius: 100%;
+	object-fit: cover;
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+	margin-left: 5%;
 }
