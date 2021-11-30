@@ -3,9 +3,13 @@
   //$("footer").load("footer.html");
 //}); 
 
-//Menu
-function menuChange(x) {
+//Nav
+function navChange(x) {
     x.classList.toggle("change");
+    //if (menu.style.display === "block") {
+      //panel.style.display = "none";
+    //} else {
+      //menu.style.display = "block";
 }
 
 //Home-Game Slideshow
